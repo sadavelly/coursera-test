@@ -1,0 +1,48 @@
+body {
+  font-size: 16px;
+  font-family: 'Oxygen', sans-serif;
+}
+
+/** HEADER **/
+#header-nav {
+  background-color: lightgray;
+  border-radius: 0;
+  border: 0;
+  /*border: 2px solid black;*/
+}
+
+.navbar-brand h1 { /* Restaurant name */
+  color: black;
+  font-size: 2em;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .65;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+#nav-list {
+  margin-top: 20px;
+}
+
+#nav-list a {
+  color: black;
+  font-size: 1.2em;
+  border: 1px solid black
+}
+
+#nav-list a:hover {
+  background: lightpink;
+}
+
+section {
+	background-color: lightgray;
+	height: 1000px;
+}
+
+section p{
+	padding: 10px
+}
